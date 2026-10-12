@@ -1,0 +1,10 @@
+{
+  "name": "careerprep-ai",
+  "private": true,
+  "workspaces": ["apps/*"],
+  "scripts": {
+    "dev:api": "npm run dev -w apps/api",
+    "dev:web": "npm run dev -w apps/web",
+    "test:api": "npm test -w apps/api"
+  }
+}
